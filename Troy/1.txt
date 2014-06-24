@@ -1,0 +1,551 @@
+1,China  Beijing  Beijing,+8 
+2,China  Tianjin  Tianjin,+8 
+3,China  Liaoning  Shenyang,+8 
+4,China  Liaoning  Dalian,+8 
+5,China  Jilin  Changchun,+8 
+6,China  Heilongjiang  Harbin,+8 
+7,China  Hebei  Shijiazhuang,+8 
+8,China  Shanxi  Taiyuan,+8 
+9,China  Shandong  Jinan,+8 
+10,China  Shandong  Qingdao,+8 
+11,China  Henan  Zhengzhou,+8 
+12,China  Shanghai  Shanghai,+8 
+13,China  Jiangsu  Nanjing,+8 
+14,China  Jiangsu  Suzhou,+8 
+15,China  Zhejiang  Hangzhou,+8 
+16,China  Zhejiang  Ningbo,+8 
+17,China  Zhejiang  Wenzhou,+8 
+18,China  Anhui  Hefei,+8 
+19,China  Jiangxi  Nanchang,+8 
+20,China  Hubei  Wuhan,+8 
+21,China  Hunan  Changsha,+8 
+22,China  Guangdong  Guangzhou,+8 
+23,China  Guangdong  Shenzhen,+8 
+24,China  Guangdong  Zhuhai,+8 
+25,China  Guangxi  Nanning,+8 
+26,China  Hainan  Haikou,+8 
+27,China  Fujian  Fuzhou,+8 
+28,China  Fujian  Xiamen,+8 
+29,China  Shanxi  Xi'an,+8 
+30,China  Inner Mongolia  Hohhot,+8 
+31,China  Ningxia  Yinchuan,+8 
+32,China  Gansu  Lanzhou,+8 
+33,China  Chongqing  Chongqing,+8 
+34,China  Sichuan  Chengdu,+8 
+35,China  Guizhou  Guiyang,+8 
+36,China  Yunnan  Kunming,+8 
+37,China  Qinghai  Xining,+8 
+38,China  Tibet  Lhasa,+8 
+39,China  Xinjiang  Urümqi,+6 
+40,China  Hong Kong  Hong Kong,+8 
+41,China  Macau  Macau,+8 
+42,China  Taiwan  Taipei,+8 
+43,Mongolia    Ulaanbaatar,+8 
+44,North Korea    Pyongyang,+9 
+45,South Korea    Seoul,+9 
+46,South Korea    Pusan,+9 
+47,Japan    Tokyo,+9 
+48,Japan    Yokohama,+9 
+49,Japan    Nagoya,+9 
+50,Japan    Kyoto,+9 
+51,Japan    Osaka,+9 
+52,Japan    Kobe,+9 
+53,Japan    Hiroshima,+9 
+54,Japan    Kitakyushu,+9 
+55,Japan    Fukuoka,+9 
+56,Japan    Sendai,+9 
+57,Vietnam    Hanoi,+7 
+58,Vietnam    Ho Chi Minh,+7 
+59,Laos    Vientiane,+7 
+60,Cambodia    Phnom Penh,+7 
+61,Thailand    Bangkok,+7 
+62,Myanmar    Yangon,+6.5
+63,Malaysia    Kuala Lumpur,+8 
+64,Singapore    Singapore,+8 
+65,Brunei    Bandar Seri Begawan,+8 
+66,Timor-Leste    Dili,+9 
+67,Indonesia  Java  Jakarta,+7 
+68,Indonesia  Java  Bandung,+7 
+69,Indonesia  Java  Semarang,+7 
+70,Indonesia  Java  Surabaya,+7 
+71,Indonesia  Sumatera  Padang,+7 
+72,Indonesia  Sumatera  Palembang,+7 
+73,Indonesia  Bali  Denpasar,+8 
+74,Indonesia  Kalimantan  Balikpapan,+8 
+75,Indonesia  Kalimantan  Banjarmasin,+8 
+76,Indonesia  Kalimantan  Samarinda,+8 
+77,Indonesia  Sulawesi  Manado,+8 
+78,Indonesia  Sulawesi  Makassar,+8 
+79,Indonesia  West Timor  Kupang,+8 
+80,Indonesia  Seram  Ambon,+9 
+81,Indonesia  Papua  Jayapura,+9 
+82,Philippines    Manila,+8 
+83,Philippines    Cebu City,+8 
+84,India    New Delhi,+5.5
+85,India    Delhi,+5.5
+86,India    Mumbai,+5.5
+87,India    Surat,+5.5
+88,India    Jaipur,+5.5
+89,India    Patna,+5.5
+90,India    Bangalore,+5.5
+91,India  Andaman and Nicobar Islands  Port Blair,+5.5
+92,Pakistan    Islamabad,+5 
+93,Pakistan    Peshawar,+5 
+94,Pakistan    Karachi,+5 
+95,Sri Lanka    Colombo,+5.5
+96,Maldives    Male,+5 
+97,Nepal    Kathmandu,+5.5
+98,Bangladesh    Dhaka,+6 
+99,Bangladesh    Chittagong,+6 
+100,Bangladesh    Khulna,+6 
+101,Bhutan    Thimphu,+6 
+102,Kazakstan    Astana,+6 
+103,Kazakstan    Almaty,+6 
+104,Kazakstan    Aqtau,+5 
+105,Kazakstan    Aqtobe,+5 
+106,Kyrgyzstan    Bishkek,+6 
+107,Tajikistan    Dushanbe,+5 
+108,Uzbekistan    Tashkent,+5 
+109,Turkmenistan    Ashgabat,+5 
+110,Afghanistan    Kabul,+4.5
+111,Iran    Tehran,+3.5
+112,Iran    Tabriz,+3.5
+113,Iran    Esfah?n,+3.5
+114,Iran    Mashhad,+3.5
+115,Iraq    Baghdad,+3 
+116,Iraq    Basra,+3 
+117,Iraq    Nasiriya,+3 
+118,Iraq    Najaf,+3 
+119,Iraq    Kirkuk,+3 
+120,Iraq    Mosul,+3 
+121,Kuwait    Kuwait City,+3 
+122,Saudi Arabia    Riyadh,+3 
+123,Saudi Arabia    Makkah,+3 
+124,Saudi Arabia    Jeddah,+3 
+125,Bahrain    Manama,+3 
+126,Qatar    Doha,+3 
+127,United Arab Emirates    Abu Dhabi,+4 
+128,United Arab Emirates    Dubai,+4 
+129,Oman    Muscat,+4 
+130,Yemen    Sana,+3 
+131,Yemen    Aden,+3 
+132,Jordan    Amman,+2 
+133,Syria    Damascus,+2 
+134,Lebanon    Beirut,+2 
+135,Israel    Jerusalem,+2 
+136,Israel    Tel Aviv,+2 
+137,Palestine  West Bank  Bethlehem,+2 
+138,Palestine  Gaza Strip  Gaza,+2 
+139,Turkey    Ankara,+2 
+140,Cyprus    Nicosia,+2 
+141,Georgia    Tbilisi,+4 
+142,Armenia    Yerevan,+4 
+143,Azerbaijan    Baku,+4 
+144,Iceland    Reykjavik,0 
+145,Denmark    Copenhagen,+1 
+146,Denmark  Faroe Islands  Tórshavn,0 
+147,Norway    Oslo,+1 
+148,Sweden    Stockholm,+1 
+149,Finland    Helsinki,+2 
+150,Russia    Moscow,+4 
+151,Russia    Kaliningrad,+3 
+152,Russia    Saint-Peterburg,+4 
+153,Russia    Murmansk,+4 
+154,Russia    Novgorod,+4 
+155,Russia    Kazan,+4 
+156,Russia    Samara,+4 
+157,Russia    Perm,+6 
+158,Russia    Ufa,+6 
+159,Russia    Yekaterinburg,+6 
+160,Russia    Chelyabinsk,+6 
+161,Russia    Omsk,+7 
+162,Russia    Novosibirsk,+7 
+163,Russia    Krasnoyarsk,+8 
+164,Russia    Vladivostok,+11
+165,Russia    Yuzhno-Sakhalinsk,+11
+166,Russia    Kamchatka,+12
+167,Russia    Anadyr,+12
+168,Estonia    Tallinn,+2 
+169,Latvia    Riga,+2 
+170,Lithuania    Vilnius,+2 
+171,Lithuania    Kaunas,+2 
+172,Belarus    Minsk,+3 
+173,Ukraine    Kyiv,+2 
+174,Ukraine    Odesa,+2 
+175,Moldova    Kishinev,+2 
+176,Moldova    Tiraspol,+2 
+177,Poland    Warsaw,+1 
+178,Poland    Gdansk,+1 
+179,Poland    Szczecin,+1 
+180,Poland    Poznan,+1 
+181,Poland    Lódz,+1 
+182,Poland    Wroclaw,+1 
+183,Poland    Kraków,+1 
+184,Czech Republic    Prague,+1 
+185,Slovakia    Bratislava,+1 
+186,Hungary    Budapest,+1 
+187,Germany  Berlin  Berlin,+1 
+188,Germany  Bavaria  Munich,+1 
+189,Germany  Hamburg  Hamburg,+1 
+190,Germany  Hesse  Frankfurt,+1 
+191,Germany  Lower Saxony  Hannover,+1 
+192,Germany  North Rhine-Westphalia  Düsseldorf,+1 
+193,Switzerland    Bern,+1 
+194,Switzerland    Geneva,+1 
+195,Switzerland    Zürich,+1 
+196,Switzerland    Basel,+1 
+197,Switzerland    Lausanne,+1 
+198,Liechtenstein    Vaduz,+1 
+199,Austria    Vienna,+1 
+200,Austria    Salzburg,+1 
+201,U.K.  England  London,0 
+202,U.K.  England  Birmingham,0 
+203,U.K.  England  Greenwich city,0 
+204,U.K.  England  Liverpool,0 
+205,U.K.  England  Plymouth,0 
+206,U.K.  Scotland  Edinburgh,0 
+207,U.K.  Scotland  Glasgow,0 
+208,U.K.  Wales  Cardiff,0 
+209,U.K.  Northern Ireland  Belfast,0 
+210,U.K.  Guernsey  St. Peter Port,0 
+211,U.K.  Gibraltar  Gibraltar,+1 
+212,Ireland    Dublin,0 
+213,France    Paris,+1 
+214,France    Marseille,+1 
+215,France    Nice,+1 
+216,France    Strasbourg,+1 
+217,France    Bordeaux,+1 
+218,France  Corsica  Bastia,+1 
+219,Monaco    Monaco,+1 
+220,Netherlands    Amsterdam,+1 
+221,Netherlands    Rotterdam,+1 
+222,Belgium    Brussels,+1 
+223,Luxembourg    Luxembourg,+1 
+224,Italy    Rome,+1 
+225,Italy    Venice,+1 
+226,Italy    Milan,+1 
+227,Italy    Turin,+1 
+228,Italy    Genoa,+1 
+229,Italy    Bologna,+1 
+230,Italy    Naples,+1 
+231,Italy    Palermo,+1 
+232,Italy    Cagliari,+1 
+233,San Marino    San Marino,+1 
+234,Vatican City State    Vatican City,+1 
+235,Malta    Valletta,+1 
+236,Spain    Madrid,+1 
+237,Spain    Barcelona,+1 
+238,Spain    Córdoba,+1 
+239,Spain    La Coru?a,+1 
+240,Spain  Majorca  Palma,+1 
+241,Spain  Canary Islands  Santa Cruz,0 
+242,Spain  Canary Islands  Las Palmas,0 
+243,Portugal    Lisbon,0 
+244,Portugal    Porto,0 
+245,Portugal  Madeira  Funchal,0 
+246,Portugal    Azores,-1 
+247,Andorra    Andorra La Vella,+1 
+248,Romania    Bucharest,+2 
+249,Bulgaria    Sofia,+2 
+250,Serbia    Belgrade,+1 
+251,Serbia  Kosovo  Pristina,+1 
+252,Montenegro    Podgorica,+1 
+253,Albania    Tirane,+1 
+254,Republic of Macedonia    Skopje,+1 
+255,Slovenia    Ljubljana,+1 
+256,Croatia    Zagreb,+1 
+257,Bosnia-Herzegovina    Sarajevo,+1 
+258,Greece    Athens,+2 
+259,Turkey    Istanbul,+2 
+260,Turkey    Izmir,+2 
+261,Egypt    Cairo,+2 
+262,Egypt    Alexandria,+2 
+263,Egypt    Al Jizah,+2 
+264,Libya    Tripoli,+2 
+265,Tunisia    Tunis,+1 
+266,Algeria    Algiers,+1 
+267,Morocco    Rabat,0 
+268,Morocco    Casablanca,0 
+269,Morocco    Tanger,0 
+270,Sudan    Khartoum,+3 
+271,Ethiopia    Addis Ababa,+3 
+272,Eritrea    Asmara,+3 
+273,Somalia    Mogadishu,+3 
+274,Djibouti    Djibouti,+3 
+275,Kenya    Nairobi,+3 
+276,Uganda    Kampala,+3 
+277,Tanzania    Dar es Salaam,+3 
+278,Tanzania    Dodoma,+3 
+279,Rwanda    Kigali,+2 
+280,Burundi    Bujumbura,+2 
+281,Mauritania    Nouakchott,0 
+282,Western Sahara    El Aaiún,0 
+283,Mali    Bamako,0 
+284,Burkina Faso    Ouagadougou,0 
+285,Senegal    Dakar,0 
+286,Gambia    Banjul,0 
+287,Cape Verde    Praia,-1 
+288,Guinea-Bissau    Bissau,0 
+289,Guinea    Conakry,0 
+290,Sierra Leone    Freetown,0 
+291,Liberia    Monrovia,0 
+292,Cote d'Ivoire (Ivory Coast)    Yamoussoukro,0 
+293,Cote d'Ivoire (Ivory Coast)    Abidjan,0 
+294,Ghana    Accra,0 
+295,Togo    Lome,0 
+296,Benin    Porto Novo,+1 
+297,Niger    Niamey,+1 
+298,Nigeria    Abuja,+1 
+299,Nigeria    Kano Nigeria,+1 
+300,Nigeria    Lagos,+1 
+301,Chad    Ndjamena,+1 
+302,Central African Republic    Bangui,+1 
+303,Cameroon    Yaoundé,+1 
+304,Equatorial Guinea    Malabo,+1 
+305,Gabon    Libreville,+1 
+306,Sao Tome and Principe    S?o Tomé,0 
+307,Congo    Brazzaville,+1 
+308,Congo Dem.Rep.    Kinshasa,+1 
+309,Congo Dem.Rep.    Lubumbashi,+2 
+310,Angola    Luanda,+1 
+311,Zambia    Lusaka,+2 
+312,Malawi    Lilongwe,+2 
+313,Mozambique    Maputo,+2 
+314,Madagascar    Antananarivo,+3 
+315,Comoros    Moroni,+3 
+316,Seychelles    Victoria,+4 
+317,Mauritius    Port Louis,+4 
+318,Reunion (French)    Saint-Denis,+4 
+319,Namibia    Windhoek,+1 
+320,Botswana    Gaborone,+2 
+321,Zimbabwe    Harare,+2 
+322,South Africa    Pretoria,+2 
+323,South Africa    Cape Town,+2 
+324,South Africa    Johannesburg,+2 
+325,Swaziland    Mbabane,+2 
+326,Lesotho    Maseru,+2 
+327,Saint Helena (U.K.)    Jamestown,0 
+328,Australia  Australian Capital Territory  Canberra,+10
+329,Australia  New South Wales  Sydney,+10
+330,Australia  Victoria  Melbourne,+10
+331,Australia  Queensland  Brisbane,+10
+332,Australia  Tasmania  Hobart,+10
+333,Australia  Lord Howe Island  Lord Howe Island,+10
+334,Australia  Norfolk Island  Kingston,+11
+335,Australia  Northern Territory  Darwin,+9.5
+336,Australia  South Australia  Adelaide,+9.5
+337,Australia  Western Australia  Perth,+8 
+338,New Zealand    Wellington,+12
+339,New Zealand    Auckland,+12
+340,New Zealand    Christchurch,+12
+341,New Zealand    Chatham Island,+12
+342,Papua New Guinea    Port Moresby,+10
+360,Canada  Ontario  Ottawa,-5 
+361,Canada  Ontario  Toronto,-5 
+362,Canada  Ontario  Hamilton,-5 
+363,Canada  Ontario  Kingston,-5 
+364,Canada  Quebec  Montreal,-5 
+365,Canada  Quebec  Québec,-5 
+366,Canada  British Columbia  Vancouver,-8 
+367,Canada  British Columbia  Victoria,-8 
+368,Canada  British Columbia  Prince George,-8 
+369,Canada  Alberta  Calgary,-7 
+370,Canada  Alberta  Edmonton,-7 
+371,Canada  Manitoba  Winnipeg,-6 
+372,Canada  New Brunswick  Saint John,-4 
+373,Canada  Newfoundland and Labrador  St. John's,-3.5
+374,Canada  Northwest Territories  Yellowknife,-7 
+375,Canada  Nova Scotia  Halifax,-4 
+376,Canada  Nunavut Territory  Iqaluit,-5 
+377,Canada  Saskatchewan  Saskatoon,-6 
+378,Canada  Saskatchewan  Regina,-6 
+379,Canada  Yukon Territory  Whitehorse,-8 
+380,U.S.A.  Alabama  Birmingham,-6 
+381,U.S.A.  Alabama  Montgomery,-6 
+382,U.S.A.  Alabama  Huntsville,-6 
+383,U.S.A.  Alabama  Mobile,-6 
+384,U.S.A.  Alaska  Anchorage,-9 
+385,U.S.A.  Arizona  Phoenix,-7 
+386,U.S.A.  Arizona  Tucson,-7 
+387,U.S.A.  Arkansas  Little Rock,-6 
+388,U.S.A.  California  San Francisco,-8 
+389,U.S.A.  California  Berkeley,-8 
+390,U.S.A.  California  Oakland,-8 
+391,U.S.A.  California  San Jose,-8 
+392,U.S.A.  California  Bakersfield,-8 
+393,U.S.A.  California  Santa Barbara,-8 
+394,U.S.A.  California  Los Angeles,-8 
+395,U.S.A.  California  Long Beach,-8 
+396,U.S.A.  California  Pasadena,-8 
+397,U.S.A.  California  San Diego,-8 
+398,U.S.A.  Colorado  Denver,-7 
+399,U.S.A.  Connecticut  Hartford,-5 
+400,U.S.A.  Delaware  Dover,-5 
+401,U.S.A.  District of Columbia  Washington DC,-5 
+402,U.S.A.  Florida  Jacksonville,-5 
+403,U.S.A.  Florida  Miami,-5 
+404,U.S.A.  Florida  Orlando,-5 
+405,U.S.A.  Florida  Tampa,-5 
+406,U.S.A.  Florida  St. Petersburg,-5 
+407,U.S.A.  Georgia  Atlanta,-5 
+408,U.S.A.  Georgia  Macon,-5 
+409,U.S.A.  Hawaii  Honolulu,-10
+410,U.S.A.  Idaho  Boise,-7 
+411,U.S.A.  Illinois  Chicago,-6 
+412,U.S.A.  Illinois  Springfield,-6 
+413,U.S.A.  Indiana  Indianapolis,-5 
+414,U.S.A.  Indiana  Evansville,-6 
+415,U.S.A.  Indiana  Gary,-6 
+416,U.S.A.  Indiana  South Bend,-5 
+417,U.S.A.  Iowa  Des Moines,-6 
+418,U.S.A.  Iowa  Cedar Rapids,-6 
+419,U.S.A.  Kansas  Topeka,-6 
+420,U.S.A.  Kentucky  Louisville,-5 
+421,U.S.A.  Louisiana  New Orleans,-6 
+422,U.S.A.  Louisiana  Baton Rouge,-6 
+423,U.S.A.  Maine  Portland,-5 
+424,U.S.A.  Maine  Augusta,-5 
+425,U.S.A.  Mariana Islands  Guam,+10
+426,U.S.A.  Maryland  Baltimore,-5 
+427,U.S.A.  Massachusetts  Boston,-5 
+428,U.S.A.  Michigan  Detroit,-5 
+429,U.S.A.  Michigan  Flint,-5 
+430,U.S.A.  Michigan  Grand Rapids,-5 
+431,U.S.A.  Michigan  Lansing,-5 
+432,U.S.A.  Minnesota  St. Paul,-6 
+433,U.S.A.  Minnesota  Minneapolis,-6 
+434,U.S.A.  Mississippi  Jackson,-6 
+435,U.S.A.  Missouri  Kansas City,-6 
+436,U.S.A.  Missouri  St. Louis,-6 
+437,U.S.A.  Missouri  Springfield,-6 
+438,U.S.A.  Missouri  Jefferson City,-6 
+439,U.S.A.  Montana  Billings,-7 
+440,U.S.A.  Montana  Helena,-7 
+441,U.S.A.  Nebraska  Lincoln,-6 
+442,U.S.A.  Nevada  Las Vegas,-8 
+443,U.S.A.  Nevada  Carson City,-8 
+444,U.S.A.  New Hampshire  Concord,-5 
+445,U.S.A.  New Jersey  Trenton,-5 
+446,U.S.A.  New Mexico  Albuquerque,-7 
+447,U.S.A.  New Mexico  Santa Fe,-7 
+448,U.S.A.  New York  New York,-5 
+449,U.S.A.  New York  Albany,-5 
+450,U.S.A.  New York  Buffalo,-5 
+451,U.S.A.  New York  Rochester,-5 
+452,U.S.A.  North Carolina  Charlotte,-5 
+453,U.S.A.  North Carolina  Raleigh,-5 
+454,U.S.A.  North Dakota  Bismarck,-6 
+455,U.S.A.  Northern Mariana Islands  Saipan,+10
+456,U.S.A.  Ohio  Cincinnati,-5 
+457,U.S.A.  Ohio  Columbus,-5 
+458,U.S.A.  Ohio  Cleveland,-5 
+459,U.S.A.  Oklahoma  Oklahoma City,-6 
+460,U.S.A.  Oregon  Portland,-8 
+461,U.S.A.  Oregon  Salem,-8 
+462,U.S.A.  Pennsylvania  Philadelphia,-5 
+463,U.S.A.  Pennsylvania  Harrisburg,-5 
+464,U.S.A.  Pennsylvania  Pittsburgh,-5 
+465,U.S.A.  Pennsylvania  Erie,-5 
+466,U.S.A.  Rhode Island  Providence,-5 
+467,U.S.A.  South Carolina  Columbia,-5 
+468,U.S.A.  South Carolina  Charleston,-5 
+469,U.S.A.  South Dakota  Pierre,-6 
+470,U.S.A.  Tennessee  Nashville,-6 
+471,U.S.A.  Tennessee  Memphis,-6 
+472,U.S.A.  Tennessee  Chattanooga,-5 
+473,U.S.A.  Tennessee  Knoxville,-5 
+474,U.S.A.  Texas  Austin,-6 
+475,U.S.A.  Texas  San Antonio,-6 
+476,U.S.A.  Texas  Houston,-6 
+477,U.S.A.  Texas  Dallas,-6 
+478,U.S.A.  Texas  Fort Worth,-6 
+479,U.S.A.  Texas  El Paso,-7 
+480,U.S.A.  Utah  Salt Lake City,-7 
+481,U.S.A.  Vermont  Montpelier,-5 
+482,U.S.A.  Virgin Islands  Charlotte Amalie,-4 
+483,U.S.A.  Virginia  Richmond,-5 
+484,U.S.A.  Virginia  Norfolk,-5 
+485,U.S.A.  Virginia  Newport News,-5 
+486,U.S.A.  Virginia  Portsmouth,-5 
+487,U.S.A.  Washington  Olympia,-8 
+488,U.S.A.  Washington  Seattle,-8 
+489,U.S.A.  West Virginia  Charleston,-5 
+490,U.S.A.  Wisconsin  Madison,-6 
+491,U.S.A.  Wisconsin  Milwaukee,-6 
+492,U.S.A.  Wyoming  Cheyenne,-7 
+493,Mexico    Mexico City,-6 
+494,Mexico    Veracruz,-6 
+495,Mexico    Monterrey,-6 
+496,Mexico    Guadalajara,-6 
+497,Mexico    Merida,-6 
+498,Mexico    Chihuahua,-7 
+499,Mexico    Mexicali,-8 
+500,Mexico    Tijuana,-8 
+501,Guatemala    Guatemala,-6 
+502,Belize    Belmopan,-6 
+503,El Salvador    San Salvador,-6 
+504,Honduras    Tegucigalpa,-6 
+505,Nicaragua    Managua,-6 
+506,Costa Rica    San Jose,-6 
+507,Panama    Panama,-5 
+508,Bahamas    Nassau,-5 
+509,Cuba    Havana,-5 
+510,Jamaica    Kingston,-5 
+511,Haiti    Port-au-Prince,-5 
+512,Dominican Republic    Santo Domingo,-4 
+513,Puerto Rico    San Juan,-4 
+514,Saint Kitts and Nevis    Basseterre,-4 
+515,Antigua and Barbuda    Saint John's,-4 
+516,France  Guadeloupe  Basse-Terre,-4 
+517,Dominica    Roseau,-4 
+518,France  Martinique  Fort-de-France,-4 
+519,Netherlands  Netherlands Antilles  Willemstad,-4 
+520,Saint Lucia    Castries,-4 
+521,Barbados    Bridgetown,-4 
+522,Saint Vincent and Grenadines    Kingstown,-4 
+523,Grenada    Saint George's,-4 
+524,U.K.  Bermuda  Hamilton,-4 
+525,Trinidad and Tobago    Port of Spain,-4 
+526,Colombia    Bogota,-5 
+527,Colombia    Barranquilla,-5 
+528,Colombia    Cartagena,-5 
+529,Venezuela    Caracas,-4.5
+530,Venezuela    Valencia,-4.5
+531,Venezuela    Maracaibo,-4.5
+532,Guyana    Georgetown,-4 
+533,Suriname    Paramaribo,-3 
+534,France  French Guiana  Cayenne,-3 
+535,Ecuador    Quito,-5 
+536,Ecuador    Guayaquil,-5 
+537,Peru    Lima,-5 
+538,Brazil  Distrito Federal  Brasilia,-3 
+539,Brazil  Rio de Janeiro  Rio de Janeiro,-3 
+540,Brazil  S?o Paulo  Sao Paulo,-3 
+541,Brazil  S?o Paulo  Santos,-3 
+542,Brazil  S?o Paulo  Campinas,-3 
+543,Brazil  Paraná  Curitiba,-3 
+544,Brazil  Minas Gerais  Belo Horizonte,-3 
+545,Brazil  Goiás  Goiania,-3 
+546,Brazil  Bahia  Salvador,-3 
+547,Brazil  Pernambuco  Recife,-3 
+548,Brazil  Ceará  Fortaleza,-3 
+549,Brazil  Para  Belém,-3 
+550,Brazil  Amazonas  Manaus,-4 
+551,Brazil  Acre  Rio Branco,-5 
+552,Uruguay    Montevideo,-3 
+553,Bolivia    La Paz,-4 
+554,Bolivia    Santa Cruz,-4 
+555,Paraguay    Asuncion,-4 
+556,Chile    Santiago,-4 
+557,Chile    Easter Island,-6 
+558,Argentina    Buenos Aires,-3 
+559,Argentina  Buenos Aires  La Plata,-3 
+560,Argentina  Buenos Aires  Mar del Plata,-3 
+561,Argentina  Santa Fe  Rosario,-3 
+562,Brazil  Espírito Santo  Vitória,-3 
+563,Brazil  Rio de Janeiro  Niterói,-3 
+564,Brazil  Rio Grande do Sul  Porto Alegre,-3 
+565,Chile    Valparaíso,-4 
+566,Argentina  Córdoba  Córdoba,-3 
+567,Argentina  Tucumán  Tucumán,-3 
+568,Kazakstan    Karaganda,+6

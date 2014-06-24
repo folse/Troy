@@ -27,6 +27,10 @@
 		A17C6919185C3E8900D4F114 /* doorbell.wav in Resources */ = {isa = PBXBuildFile; fileRef = A17C6918185C3E8900D4F114 /* doorbell.wav */; };
 		A17C691B185C47FE00D4F114 /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A17C691A185C47FE00D4F114 /* bg@2x.png */; };
 		A17C691D185C4CA800D4F114 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A17C691C185C4CA800D4F114 /* icon@2x.png */; };
+		A1D168631875722D00F05ED4 /* 4.txt in Resources */ = {isa = PBXBuildFile; fileRef = A1D168621875722D00F05ED4 /* 4.txt */; };
+		A1D16867187658A700F05ED4 /* 4.csv in Resources */ = {isa = PBXBuildFile; fileRef = A1D16866187658A700F05ED4 /* 4.csv */; };
+		A1D86BE518770A8C00B3411B /* 5.csv in Resources */ = {isa = PBXBuildFile; fileRef = A1D86BE418770A8C00B3411B /* 5.csv */; };
+		A1D86BE91877C74600B3411B /* 1.txt in Resources */ = {isa = PBXBuildFile; fileRef = A1D86BE81877C74600B3411B /* 1.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +71,10 @@
 		A17C6918185C3E8900D4F114 /* doorbell.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = doorbell.wav; sourceTree = "<group>"; };
 		A17C691A185C47FE00D4F114 /* bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x.png"; sourceTree = "<group>"; };
 		A17C691C185C4CA800D4F114 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		A1D168621875722D00F05ED4 /* 4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 4.txt; sourceTree = "<group>"; };
+		A1D16866187658A700F05ED4 /* 4.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 4.csv; sourceTree = "<group>"; };
+		A1D86BE418770A8C00B3411B /* 5.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 5.csv; sourceTree = "<group>"; };
+		A1D86BE81877C74600B3411B /* 1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 1.txt; sourceTree = "<group>"; };
 		CE6651BF154545AB944485C3 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,6 +157,10 @@
 				A17C6918185C3E8900D4F114 /* doorbell.wav */,
 				A17C691C185C4CA800D4F114 /* icon@2x.png */,
 				A17C691A185C47FE00D4F114 /* bg@2x.png */,
+				A1D16866187658A700F05ED4 /* 4.csv */,
+				A1D168621875722D00F05ED4 /* 4.txt */,
+				A1D86BE418770A8C00B3411B /* 5.csv */,
+				A1D86BE81877C74600B3411B /* 1.txt */,
 				A17C6915185C21E000D4F114 /* Vendor */,
 				A17C68E3185C199E00D4F114 /* Supporting Files */,
 			);
@@ -286,6 +298,10 @@
 				A17C68E7185C199E00D4F114 /* InfoPlist.strings in Resources */,
 				A17C68F0185C199E00D4F114 /* Main.storyboard in Resources */,
 				A17C6919185C3E8900D4F114 /* doorbell.wav in Resources */,
+				A1D168631875722D00F05ED4 /* 4.txt in Resources */,
+				A1D86BE518770A8C00B3411B /* 5.csv in Resources */,
+				A1D16867187658A700F05ED4 /* 4.csv in Resources */,
+				A1D86BE91877C74600B3411B /* 1.txt in Resources */,
 				A17C691B185C47FE00D4F114 /* bg@2x.png in Resources */,
 				A17C691D185C4CA800D4F114 /* icon@2x.png in Resources */,
 			);

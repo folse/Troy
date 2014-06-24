@@ -39,9 +39,32 @@ static  void  completionCallback (SystemSoundID  mySSID) {
 {
     [super viewDidLoad];
     
-    wantTypeId = @"812";
+    //[self systemLogin];
+        
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"1" ofType:@"txt"];
+    NSString *contents = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
+    NSArray *contentsArray = [contents componentsSeparatedByCharactersInSet:[NSCharacterSet newlineCharacterSet]];
+    NSString *docs = [NSHomeDirectory() stringByAppendingPathComponent:@"Documents/timezone.plist"] ;
     
-    [self systemLogin];
+    i(contentsArray.count)
+    
+    NSMutableArray *plistArray = [[NSMutableArray alloc] init];
+
+    for (int i = 0; i < contentsArray.count; i++) {
+        
+        
+        NSString* currentContent = contentsArray[i];
+        
+        NSArray* timezone = [currentContent componentsSeparatedByString:@","];
+        
+        NSMutableDictionary *dic = [[NSMutableDictionary alloc] init];
+        [dic setObject:[timezone objectAtIndex:1] forKey:@"city"];
+        [dic setObject:[timezone objectAtIndex:2] forKey:@"fix"];
+        [plistArray addObject:dic];
+    }
+    [plistArray writeToFile:docs atomically:YES];
+    
+    s(docs)
 }
 
 -(void)systemLogin
@@ -51,6 +74,8 @@ static  void  completionCallback (SystemSoundID  mySSID) {
         //s(responseObject)
         
         [self refreshTimeList];
+        
+        //[self getCars];
 
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         
@@ -60,9 +85,12 @@ static  void  completionCallback (SystemSoundID  mySSID) {
 
 -(void)refreshTimeList
 {
+    s([NSDate date])
     manager = [AFHTTPRequestOperationManager manager];
-    [manager POST:@"http://haijia.bjxueche.net:8001/KM2/ClYyTimeSectionUIQuery2?xxzh=51137361&jlcbh=&trainType=&zip=false&osname=android" parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
-    
+    [manager POST:@"http://haijia.bjxueche.net:8001/KM2/ClYyTimeSectionUIQuery2?xxzh=51137363&jlcbh=&trainType=&zip=false&osname=android" parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        
+        s(responseObject)
+        
         NSDictionary *data = [responseObject valueForKey:@"data"];
         NSArray *dateArray = (NSArray *)[data valueForKey:@"UIDatas"];
         
@@ -75,15 +103,19 @@ static  void  completionCallback (SystemSoundID  mySSID) {
                 availableDate = [item valueForKey:@"Yyrq"];
                 availableDate = [availableDate componentsSeparatedByString:@" "][0];
                 
-                if ([availableDate isEqualToString:@"2013/12/21"] || [availableDate isEqualToString:@"2013/12/22"]) {
+                if ([availableDate isEqualToString:@"2013/12/28"]) {
                     
                     availableTypeId = [NSString stringWithFormat:@"%@", [item valueForKey:@"Xnsd"]];
                     
-                    [self getCarNumber];
-                    
-                    gotChance = YES;
-                
-                    break;
+                    if ([availableTypeId isEqualToString:@"812"] || [availableTypeId isEqualToString:@"15"]) {
+                        
+                        //[self getCarNumber];
+                        
+                        gotChance = YES;
+                        _statusLabel.text = @"Got One Chance";
+                        
+                        break;
+                    }
                 }
             }
         }
@@ -106,10 +138,42 @@ static  void  completionCallback (SystemSoundID  mySSID) {
     }];
 }
 
+-(void)getCars
+{
+    manager = [AFHTTPRequestOperationManager manager];
+    [manager POST:@"http://haijia.bjxueche.net:8001/KM2/ClYyCars2?filters[jlcbh]=&filters[xxzh]=51137363&filters[trainType]=&zip=false&osname=android" parameters:@{@"filters[xnsd]":@"812",@"filters[yyrq]":@"2013/12/19"} success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        
+        s(responseObject)
+        
+        NSDictionary *data = [responseObject valueForKey:@"data"];
+        
+        NSArray *availableCars = [data valueForKey:@"Result"];
+        
+        if (availableCars.count > 0) {
+            
+            availableCarId = [[availableCars lastObject] valueForKey:@"CNBH"];
+            
+            //[self makeReservation];
+            
+        }else{
+            
+            _chanceCountLabel.text = @"Lost At Got ID";
+        }
+        
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        
+        s(operation.responseString)
+        
+        s(error)
+    }];
+}
+
 -(void)getCarNumber
 {
     manager = [AFHTTPRequestOperationManager manager];
-    [manager POST:@"http://haijia.bjxueche.net:8001/KM2/ClYyCars2?filters[jlcbh]=&filters[xxzh]=51137361&filters[trainType]=&zip=false&osname=android" parameters:@{@"filters[xnsd]": availableTypeId,@"filters[yyrq]":availableDate} success:^(AFHTTPRequestOperation *operation, id responseObject) {
+    [manager POST:@"http://haijia.bjxueche.net:8001/KM2/ClYyCars2?filters[jlcbh]=&filters[xxzh]=51137363&filters[trainType]=&zip=false&osname=android" parameters:@{@"filters[xnsd]": availableTypeId,@"filters[yyrq]":availableDate} success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        
+        s(responseObject)
         
         NSDictionary *data = [responseObject valueForKey:@"data"];
         
@@ -141,7 +205,9 @@ static  void  completionCallback (SystemSoundID  mySSID) {
     NSString *reservationParameter = [NSString stringWithFormat:@"%@.%@.%@.",availableCarId,availableDate,availableTypeId];
     
     manager = [AFHTTPRequestOperationManager manager];
-    [manager POST:@"http://haijia.bjxueche.net:8001/KM2/ClYyAddByMutil?xxzh=51137361&jlcbh=&isJcsdYyMode=5&trainType=&zip=true&osname=android" parameters:@{@"params":reservationParameter} success:^(AFHTTPRequestOperation *operation, id responseObject) {
+    [manager POST:@"http://haijia.bjxueche.net:8001/KM2/ClYyAddByMutil?xxzh=51137361&jlcbh=&isJcsdYyMode=5&trainType=&zip=false&osname=android" parameters:@{@"params":reservationParameter} success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        
+        s(responseObject)
         
         int retCode = [[responseObject valueForKey:@"code"] integerValue];
        
